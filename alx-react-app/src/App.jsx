@@ -22,9 +22,9 @@ function App() {
 
 
       <UserProfile
-        name="Mavis Mensah Ama"
-        age={30}
-        bio="A passionate learner exploring tech, creativity, and impact." />
+        name="Alice"
+        age={25}
+        bio="Loves hiking and photography." />
 
 
       <div>
