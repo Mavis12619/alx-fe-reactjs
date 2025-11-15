@@ -2,6 +2,8 @@ import WelcomeMessage from './components/WelcomeMessage'
 import Header from './components/Header'
 import MainContent from './components/MainContent'
 import Footer from './components/Footer'
+import UserProfile from './components/UserProfile'
+
 
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
@@ -17,6 +19,13 @@ function App() {
       <Header />
       <MainContent />
       <Footer />
+
+
+      <UserProfile
+        name="Mavis Mensah Ama"
+        age={30}
+        bio="A passionate learner exploring tech, creativity, and impact." />
+
 
       <div>
         <a href="https://vite.dev" target="_blank">
